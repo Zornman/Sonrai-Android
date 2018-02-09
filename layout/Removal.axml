@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBack"
+        android:layout_marginRight="273.0dp" />
+    <TextView
+        android:text="Removal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginRight="141.0dp"
+        android:layout_marginLeft="141.5dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/frameLayout1"
+        android:layout_marginBottom="0.0dp">
+        <TextView
+            android:text="RFID Value: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtView2"
+            android:layout_marginRight="277.5dp"
+            android:layout_marginBottom="12.0dp"
+            android:layout_marginTop="23.5dp"
+            android:layout_marginLeft="7.5dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText1"
+            android:layout_marginLeft="110.5dp"
+            android:layout_marginRight="8.5dp"
+            android:layout_marginTop="9.0dp" />
+    </FrameLayout>
+    <Button
+        android:text="Get Info"
+        android:layout_width="158.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGetInfo"
+        android:layout_marginLeft="105.5dp"
+        android:layout_marginRight="0.0dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="331.5dp"
+        android:id="@+id/frameLayout7"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="10.0dp">
+        <TextView
+            android:text="Customer Name: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView4"
+            android:layout_marginTop="9.5dp"
+            android:layout_marginBottom="301.5dp"
+            android:layout_marginRight="265.5dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText2"
+            android:layout_marginBottom="293.5dp"
+            android:layout_marginLeft="108.5dp"
+            android:layout_marginTop="0.0dp" />
+        <TextView
+            android:text="Address:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5"
+            android:layout_marginTop="49.5dp"
+            android:layout_marginBottom="266.0dp"
+            android:layout_marginRight="272.0dp"
+            android:layout_marginLeft="51.0dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText3"
+            android:layout_marginBottom="254.0dp"
+            android:layout_marginLeft="108.5dp"
+            android:layout_marginTop="42.5dp" />
+        <TextView
+            android:text="Cart Serial: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView6"
+            android:layout_marginTop="177.0dp"
+            android:layout_marginBottom="135.5dp"
+            android:layout_marginRight="272.0dp"
+            android:layout_marginLeft="38.0dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText7"
+            android:layout_marginBottom="124.0dp"
+            android:layout_marginLeft="108.5dp"
+            android:layout_marginTop="172.5dp" />
+        <TextView
+            android:text="Cart Type: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView7"
+            android:layout_marginTop="222.0dp"
+            android:layout_marginBottom="85.5dp"
+            android:layout_marginRight="272.0dp"
+            android:layout_marginLeft="42.5dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText8"
+            android:layout_marginBottom="80.0dp"
+            android:layout_marginLeft="108.5dp"
+            android:layout_marginTop="218.5dp" />
+        <TextView
+            android:text="City: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5"
+            android:layout_marginTop="91.0dp"
+            android:layout_marginBottom="219.5dp"
+            android:layout_marginRight="272.0dp"
+            android:layout_marginLeft="78.0dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText4"
+            android:layout_marginBottom="212.5dp"
+            android:layout_marginLeft="108.5dp"
+            android:layout_marginTop="85.0dp" />
+        <TextView
+            android:text="State: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5"
+            android:layout_marginTop="133.5dp"
+            android:layout_marginBottom="175.0dp"
+            android:layout_marginRight="272.0dp"
+            android:layout_marginLeft="69.5dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText5"
+            android:layout_marginBottom="170.5dp"
+            android:layout_marginLeft="108.5dp"
+            android:layout_marginTop="124.5dp"
+            android:layout_marginRight="178.0dp" />
+        <TextView
+            android:text="Zip: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5"
+            android:layout_marginTop="136.0dp"
+            android:layout_marginBottom="175.5dp"
+            android:layout_marginRight="136.5dp"
+            android:layout_marginLeft="222.0dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText6"
+            android:layout_marginBottom="169.5dp"
+            android:layout_marginLeft="251.5dp"
+            android:layout_marginTop="130.0dp" />
+        <TextView
+            android:text="Cart Size: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView7"
+            android:layout_marginTop="262.5dp"
+            android:layout_marginBottom="48.5dp"
+            android:layout_marginRight="272.0dp"
+            android:layout_marginLeft="46.0dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText9"
+            android:layout_marginBottom="40.0dp"
+            android:layout_marginLeft="108.5dp"
+            android:layout_marginTop="255.5dp" />
+        <FrameLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frameLayout8"
+            android:layout_marginBottom="0.0dp">
+            <Button
+                android:text="Remove"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnRemoval"
+                android:layout_marginRight="213.5dp"
+                android:layout_marginTop="291.0dp" />
+            <Button
+                android:text="Clear Info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnClearInfo"
+                android:layout_marginRight="0.0dp"
+                android:layout_marginLeft="193.5dp"
+                android:layout_marginTop="291.5dp" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>
